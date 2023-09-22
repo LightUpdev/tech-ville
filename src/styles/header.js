@@ -1,0 +1,41 @@
+export const headerStyles = {
+  container: {
+    display: "flex",
+    flex: "0.1",
+    backgroundColor: "",
+    flexDirection: "row",
+    justifyContent: "space-between",
+  },
+  logo: {
+    padding: "7px",
+    alignItems: "center",
+    margin: "5px 5px",
+    fontWeight: "bold",
+    fontSize: "1.5rem",
+    cursor: "pointer",
+  },
+  links: {
+    display: "flex",
+    flexDirection: "rows",
+    alignItems: "center",
+    textDecoration: "none",
+  },
+  link: {
+    alignItems: "center",
+    textDecoration: "none",
+    listStyle: "none",
+    margin: "10px 5px",
+    padding: "10px 10px",
+    fontSize: "18px",
+    cursor: "pointer",
+  },
+  actions: {
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    padding: "8px 5px",
+    margin: "8px 5px",
+    gap: "1.5rem",
+  },
+};
