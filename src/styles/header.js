@@ -1,13 +1,15 @@
 export const headerStyles = {
   container: {
     display: "flex",
-    flex: "0.1",
-    backgroundColor: "",
     flexDirection: "row",
     justifyContent: "space-between",
+    backgroundColor: "#490475",
+    color: "#FCFCFC",
+    boxShadow: "3px 6px 5px rgba(0, 0 , 0 , 0.6)",
+    margin: "0 8px 15px 0",
   },
   logo: {
-    padding: "7px",
+    padding: "5px",
     alignItems: "center",
     margin: "5px 5px",
     fontWeight: "bold",
@@ -18,15 +20,16 @@ export const headerStyles = {
     display: "flex",
     flexDirection: "rows",
     alignItems: "center",
+    margin: "8px 5px",
     textDecoration: "none",
+    justifyContent: "center",
   },
   link: {
     alignItems: "center",
     textDecoration: "none",
     listStyle: "none",
-    margin: "10px 5px",
-    padding: "10px 10px",
-    fontSize: "18px",
+    padding: "8px 10px",
+    fontSize: "19px",
     cursor: "pointer",
   },
   actions: {
